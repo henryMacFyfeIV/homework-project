@@ -1,0 +1,6 @@
+I ran into a problem when running 
+> rails generate controller Pages
+I would get some error message about there not being a yarn integrity file
+what fixed it was just running 
+>yarn
+which updated some yarn files, I think webpacker.
