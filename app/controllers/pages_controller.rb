@@ -4,4 +4,9 @@ class PagesController < ApplicationController
             format.html {render :hmfyfe}
         end
     end
+    def knime
+        respond_to do |format|
+            format.html {render :knime}
+        end
+    end
 end
