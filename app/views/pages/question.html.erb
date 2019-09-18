@@ -1,9 +1,12 @@
 <h1> Question </h1>
 
-<p> Which of the following is the single responsability principle? </p>
+
+<p> <%= q %> </p>
+
 <ul>
-  <li> A class should have only one reaseon to change</li>
-  <li>Each dev on a team should have one main responsability</li>
-  <li>Every app will have one responsability that is most important to users</li>
+  <%answers.each do |a|%>
+  <li> <%= a %> </li>
+  <% end %>
+</ul>
 
 <%= link_to 'Profile Page', hmfyfe_path %>
